@@ -7,7 +7,7 @@ We live in an information-rich world. Because of the strong desire to exploit da
 
 ## What exactly is data science?
 
-![463627_1_En_BookFrontmatter_Fig1_HTML-removebg-preview.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662984791308/XNSGtN40z.png align="left")
+![463627_1_En_BookFrontmatter_Fig1_HTML-removebg-preview](https://user-images.githubusercontent.com/87413874/192567113-2375b876-52e7-40cd-b1bc-5e0ce96db642.png)
 
 Data science is a *field of study that includes modern tools and methods for extracting, processing, and analyzing data*. These tools may only be provided by libraries used in programming languages such as **Python**, **JavaScript**, and **R programming**. However, Python will be the focus of this article.
 
@@ -49,11 +49,13 @@ Syntax: name_of_dataframe.head( )
 ```
 look at the dataframe below, for employee_info.
 
-![Screenshot_20220912-133741_1.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662986393381/dKf6-_kLU.jpg align="left")
+![Screenshot (25)](https://user-images.githubusercontent.com/87413874/192569598-43c33f8f-8de0-4106-9b3e-dc09b2d946c8.png)
+
 Printing the dataframe's head results in 
 
+![Screenshot (27)](https://user-images.githubusercontent.com/87413874/192571260-6f5ee89f-06d9-43bd-ba3e-024257505b86.png)
 
-![Screenshot_20220912-133741_2.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662986511792/pE9lWP6NV.jpg align="left")
+
 **- Using the info method .info()**
 ```
 syntax: name_of_dataframe.info()
@@ -88,9 +90,10 @@ we select a column as follows
 ```
 name_of_dataframe[‘name of column’]
 ```
-for example employee_info['names'] image 
+for example employee_info['names'] 
 
-![Screenshot_20220912-133741_3.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662986710270/ww04lT0N4.jpg align="left")
+![image](https://user-images.githubusercontent.com/87413874/192572874-14aff834-e310-4461-9dcf-13e95aa41cb2.png)
+
 This method is used when the column name contains letters or special characters such as -,? etc.
 
 **- Selecting with a dot (.)**
@@ -107,7 +110,7 @@ Syntax: name_of_dataframe[[‘name of column1’ , ’ name of column2’]]
 **Example:** 
 Employee_info[ [‘names’,’ city ’] ]
 
-![Screenshot_20220912-133741_4.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662986760936/ekFjqBuSv.jpg align="left")
+![image](https://user-images.githubusercontent.com/87413874/192573484-f53a20eb-aa5e-46c5-9740-97d7f007b01c.png)
 
 **- Selecting rows in a dataframe**
 To select rows from a dataframe, logic statements such as **==,>**, and so on are used.
@@ -120,12 +123,12 @@ employee info [employee info['age']==20]
 
 **Output**
 
-![Screenshot_20220912-135313_2.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662987303716/PEB6EpNME2.jpg align="left")
+![image](https://user-images.githubusercontent.com/87413874/192573941-5b119936-9dca-46bc-b57f-1dc30ee9e1d2.png)
 
 ## Creating plots
 ### - Creating line plots
 
-![01_Matplotlib_line_plot-min_1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1662986090155/lVxV_1rD-.png align="left")
+![image](https://user-images.githubusercontent.com/87413874/192574172-dcc858e0-6dc2-4460-8229-d3f0b2072333.png)
 
 To create a line plot, we must do the following.
 1. From matplotlib import pyplot
@@ -149,7 +152,7 @@ plt.show()
 
 ### - Creating scatter plots
 
-![1_aqm6h3VLx4SEXz9qVnsVEw_1.jpeg](https://cdn.hashnode.com/res/hashnode/image/upload/v1662985865342/uKGHa8y7J.jpeg align="left")
+![image](https://user-images.githubusercontent.com/87413874/192574442-60ac25db-c7db-4f1d-8a48-8ce377895608.png)
 
 A scatter plot illustrates how each data point appears on a graph.
 A scattered plot is an excellent way to view unordered plots.
